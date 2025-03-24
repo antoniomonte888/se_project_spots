@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  justify-content: center ;
+  color: #212121B2;
+  opacity: 70%;
+}
+
+.footer__copyright {
+  margin-top: 60px;
+}
