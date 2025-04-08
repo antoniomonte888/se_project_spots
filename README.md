@@ -2,7 +2,7 @@
 
 🔗 [Live Demo](https://antoniomonte888.github.io/se_project_spots/)
 
-[Watch Sprint 3 Walkthrough](./Sprint3.mov)
+[Watch Sprint 3 Walkthrough](https://youtu.be/c_jnUsvPK48)
 
 
 ### Overview
