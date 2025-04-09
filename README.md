@@ -4,7 +4,6 @@
 
 [Watch Sprint 3 Walkthrough](https://youtu.be/c_jnUsvPK48)
 
-
 ### Overview
 
 - Intro
@@ -12,9 +11,6 @@
 - Images
 
 **Intro**  
-Will upload video, once corrections are made :)
-That way I'm not presenting anything wrong.
-
 This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
 
 **Figma**
