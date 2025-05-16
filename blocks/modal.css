@@ -29,6 +29,7 @@
 
 .modal__close-btn {
   position: absolute;
+  opacity: 40%;
   top: 32px;
   right: 50px;
   width: 40px;
@@ -67,6 +68,8 @@
   line-height: 1;
   gap: 10px;
   border-radius: 8px;
+  border: 1px #21212166 solid;
+  box-sizing: border-box;
 }
 
 .modal__input::placeholder {
@@ -88,16 +91,17 @@
     width: 300px;
     border-radius: 8px;
     gap: 24px;
+    padding: 12px;
   }
 
   .modal__input {
-    width: 276px;
+    width: 100%;
     height: 48px;
     font-size: 16px;
   }
 
   .modal__submit-btn {
-    width: 276px;
+    width: 100%;
     height: 56px;
   }
 }
