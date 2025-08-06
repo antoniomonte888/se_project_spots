@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-    <title>Document</title>
+    <title>Spots</title>
   </head>
   <body>
     <div class="page">
@@ -26,11 +26,11 @@
           <div class="profile__column">
             <h1 class="profile__name">Bessie Coleman</h1>
             <p class="profile__description">Civil Aviator</p>
-            <button class="profile__edit-btn">Edit Profile</button>
-            <button type="button" class="profile__add-btn">
+            <button type="button" class="profile__edit-btn">Edit Profile</button>
               <img src="images/plus.svg" alt="Plus icon" /> New Post
             </button>
           </div>
+          <button type="button" class="profile__add-btn">
         </section>
         <section class="cards">
           <ul class="cards__list">
@@ -115,16 +115,17 @@
           </button>
           <h2 class="modal__title">Edit Profile</h2>
           <form class="modal__form">
-            <label for="profile-name-input" class="modal__label">
+            <label for="profile-name-input" class="modal__label">Type your name
               <input
                 id="profile-name-input"
                 type="text"
                 class="modal__input"
                 placeholder="Type your name"
+                required
               />
             </label>
             <label for="profile-description-input" class="modal__label">
-              Caption
+              Description
               <input
                 id="profile-description-input"
                 type="text"
