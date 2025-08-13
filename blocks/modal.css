@@ -1,10 +1,8 @@
-/*TODO - add correct font styles on everything */
-/*TODO - responsive design */
-
 .modal {
   opacity: 0;
   visibility: hidden;
-  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0 10px;
+  background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
   right: 0;
@@ -50,9 +48,7 @@
 }
 
 .modal__close-btn:hover {
-  background-color: rgba(255, 255, 255, 0.8);
   opacity: 1;
-  border: 2px solid #212121;
 }
 
 .modal__title {
@@ -89,6 +85,10 @@
   padding: 16px 12px;
 }
 
+.modal__input:hover {
+  cursor: pointer;
+}
+
 .modal__input::placeholder {
   color: #2121214d;
 }
@@ -96,6 +96,7 @@
 .modal__submit-btn {
   width: 156px;
   height: 52px;
+  border: none;
   border-radius: 8px;
   background-color: #212121;
   font-weight: 500;
@@ -128,6 +129,14 @@
 
   .modal__submit-btn {
     width: 100%;
-    height: 56px;
+  }
+
+  .modal__close-btn {
+    top: 22px;
+    right: 12px;
+  }
+
+  .modal__label {
+    margin-bottom: 24px;
   }
 }
